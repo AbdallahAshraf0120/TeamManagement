@@ -1,0 +1,22 @@
+{
+    "name": "wdd/teammanagement",
+    "description": "to manage team",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "wdd\\teammanagement\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wdd\\teammanagement\\TeamManagementServiceProvider"
+            ]
+        }
+    }
+}
